@@ -136,7 +136,7 @@ Use **Postman** or any API testing tool:
 ### 📥 Response
 
 ```
-  "reply": "Hello"
+  Helo
 
 ```
 
