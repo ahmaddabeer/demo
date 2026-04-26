@@ -42,7 +42,7 @@ public class MessageRequest {
 
 ---
 
-### 2️⃣ Controller — `ChatbotController.java`
+### 2️⃣ Controller — `Controller.java`
 
 ```java
 package com.example.demo;
@@ -76,9 +76,32 @@ public class Controller {
     
 }```
 
-### 2️⃣ Controller — `ChatbotController.java`
 
+```
 ---
+
+### 3️⃣ Main — `DemoApplication.java`
+
+```java
+
+package com.example.demo;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class DemoApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(DemoApplication.class, args);	
+	}
+
+}
+
+
+
+
+
 
 ## 🚀 How to Run Locally
 
@@ -112,18 +135,18 @@ Use **Postman** or any API testing tool:
 
 ### 📥 Response
 
-```json
-{
+```
   "reply": "Hello"
-}
+
 ```
 
 ---
 
 ## 🎥 Demo
 
-* 📸 Screenshots: Available in `/screenshots` folder
-* 🎬 Video Demo: *(Add your 2–3 minute demo link here)*
+* 🎬 Video Demo: *(https://drive.google.com/drive/folders/1UPmKnDyK2bp5F-UItc1-OtkDaodwmoDx?usp=sharing)*
+
+
 
 ---
 
